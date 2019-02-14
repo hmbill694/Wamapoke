@@ -1,0 +1,306 @@
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Utility classes */
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 1.3rem;
+    height: 100%;
+}
+
+/* Headers */
+
+.internal-header{
+    color: white;
+    text-align: center;
+    line-height: 2.0rem;
+    font-size: 2em;
+}
+
+/* button classes */
+
+.p-btn{
+    font-size: 16px;
+    font-weight: bolder;
+    padding: .7rem;
+    margin-top: .9em;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.p-btn:hover{
+    background-color: rgb(136, 77, 10);
+    transition: .3s;
+}
+
+/* Background classes */
+
+.dark-bg{
+    background-color: #202020;
+}
+
+.light-bg{
+    background-color: #FFE5CC;
+    color: black;
+}
+
+.primary-bg{
+    background: rgb(136, 77, 10);
+    color: white;
+}
+
+.color-text{
+    color:  rgb(136, 77, 10);
+}
+
+/* box classes */
+
+.box{
+    height: 300px;;
+    float: left;
+    max-width: 33.3%;
+    padding: 3rem;
+    text-align: center;
+}
+
+.box i{
+    margin: .3rem;
+}
+
+/* Clear floats */
+
+.clr{
+    clear: both;
+}
+
+/* Padding classes */
+.py-10{
+    padding: 10px;
+}
+.py-20{
+    padding: 20px;
+}
+.py-30{
+    padding: 30px;
+}
+
+/* Margin classes */
+.my-10{
+    margin: 10px;
+}
+.my-20{
+    margin: 20px;
+}
+.my-30{
+    margin: 30px;
+}
+
+/* Main Styling */
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Nav-bar */
+#nav-bar{
+    color: white;
+    overflow: auto;
+}
+
+#nav-bar .logo{
+padding: 1.2rem;
+float: left;
+}
+
+#nav-bar ul{
+    list-style: none;
+    float: right;
+
+}
+
+#nav-bar ul li{
+    float: left;
+}
+
+#nav-bar ul li a{
+    display: block;
+    padding: 1.2rem;
+    text-align: center;
+}
+
+#nav-bar ul li a:hover,
+#nav-bar ul li a.current{
+    color: rgb(136, 77, 10);
+    background-color: rgb(47, 47, 47);
+    transition: .3s;
+}
+
+/* Showcase Styling */
+
+#showcase{
+    background: url("../image_resources/nature-forest-trees-fog.jpeg") no-repeat
+                center center/cover;
+    height: 600px;
+   
+}
+
+#showcase .showcase-text{
+    color: black;
+    text-align: center;
+    line-height: 1.2em;
+    padding-top: 140px;
+}
+
+#showcase .showcase-text h2{
+    padding-bottom: 1.2rem;
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-text p{
+    font-size: 16px;
+    font-weight: bolder;
+    padding-bottom: 2rem;
+    line-height: 1.7em;
+}
+
+#showcase .showcase-text span{
+    color:  rgb(136, 77, 10);
+}
+
+/* home-history */
+#home-history{
+    height: 500px;
+}
+
+#home-history .history-img{
+    float: left;
+    width: 50%;
+    background: url("../image_resources/lakeshore.jpeg") no-repeat
+                    center center/cover;
+    min-height: 100%;
+}
+
+#home-history .history-content{
+    float: right;
+    width: 50%;
+    text-align: center;
+    color: white;
+    padding: 2.6rem 1.5rem;
+}
+
+#home-history .history-content h2{
+    padding: 1.2rem;
+}
+
+#home-history .history-content p{
+    padding-bottom: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+/* Main footer */
+#home-footer{
+    height: 2rem;
+    color: white;
+    text-align: center;
+    
+}
+
+/* About us */
+
+#about-us{
+    height: 400px;
+}
+
+#about-us h2{
+    padding: 1.3rem 0;
+}
+
+#about-us .text-container{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+#about-us .about-us-img{
+    float: right;
+    min-height: 100%;
+    max-width: 50%;
+    margin: auto;
+}
+
+#about-us .about-us-img img{
+    width: 70%;
+    height: 325px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+/* Reviews */
+
+#reviews{
+    max-width: 100%;
+    background: url("../image_resources/cabin.jpeg")no-repeat
+    center center/cover;
+    height: 600px;
+}
+
+#reviews .review-box-container{
+    max-width: 100%;
+    margin-top: 2.0rem;
+}
+
+#reviews .review-box{
+    border-radius: 30px;
+    color: white;
+    opacity: .9;
+}
+
+/* Contact Us */
+
+#contact{
+    text-align: center;
+    
+}
+
+.form-wrap{
+    background: url(../image_resources/anchor-bay-beach-1028447.jpg) no-repeat
+    center center/cover;
+    max-width: 100%;
+    height: 1000px;
+    padding-top:200px; 
+    margin: 0;
+}
+
+.form-container{
+ border-radius:30px;
+ max-width: 50%;
+ height: 50%;
+ color: white;
+ opacity: .9;
+ 
+}
+
+.form-container p{
+    font-size: 1.2em;
+}
+
+.form-container input{
+    display: block;
+    width: 95%;
+}

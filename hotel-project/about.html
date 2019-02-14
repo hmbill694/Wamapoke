@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Welcome to the Wamapoke">
+    <meta name="keywords" content="the casper,fishing,lodge,vacation,vermont,comformt,cozy">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Wamapoke Hiking Lodge </title>
+</head>
+<body>
+    <header>
+        <nav id="nav-bar" class="dark-bg">
+            <div class="container">
+                <h1 class="logo"> <a href="index.html">WHL</a></h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="current" href="about.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="about-us" class="py-20">
+        <div class="container" >
+            <div class="text-container">
+                <h2><span class="color-text">Our</span> Histoy</h2>
+                <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. 
+                Alias voluptates tempora incidunt voluptatibus ex voluptas quas pariatur magni culpa cum perspiciatis dicta minima, voluptatum obcaecati eius officiis maxime ratione accusantium maiores? Natus incidunt quasi, 
+                maxime atque in repellat culpa consectetur rerum at ipsum aspernatur odit esse, commodi molestiae modi obcaecati. 
+                Amet voluptatum ratione, facere odit dolores unde eveniet ducimus repellendus.</p>
+            </div>
+            <div class="about-us-img">
+              <img src="./image_resources/pexels-photo-40465.jpeg" alt="">
+            </div>  
+        </div>
+    </section>
+    <div class="clr"></div>
+    <section id="reviews" class="py-20">
+        <div class="container">
+            <div class="review-box-container py-20">
+                <h2 class="internal-header">Reviews</h2>
+                <div class="review-box py-20 my-20 primary-bg">
+                        <i class="fas fa-user-alt"></i>
+                        <span>Laura Hilson</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto delectus ratione, possimus 
+                            quisquam iure eligendi id porro debitis rem odio dolorum quibusdam hic!</p>
+                    </div>
+                    <div class="review-box py-20 my-20 primary-bg">
+                        <i class="fas fa-user-alt"></i>
+                        <span>Thomas Bobit</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto delectus ratione, possimus 
+                            quisquam iure eligendi id porro debitis rem odio dolorum quibusdam hic!</p>
+                    </div>
+                    <div class="review-box py-20 my-20 primary-bg">
+                        <i class="fas fa-user-alt"></i>
+                        <span>Mark krashmen</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto delectus ratione, possimus 
+                            quisquam iure eligendi id porro debitis rem odio dolorum quibusdam hic!</p>
+                    </div>
+            </div>
+        </div> 
+    </section>
+    <footer id="home-footer" class="dark-bg">
+        <p>Wamapoke Hiking Lodge &copy; 2019, All Rights Reserved. HB Inc.</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+    
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+    
+          // Store hash
+          var hash = this.hash;
+    
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+    
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
+</body>
+</html>
