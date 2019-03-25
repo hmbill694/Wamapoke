@@ -11,7 +11,8 @@
     max-width: 1100px;
     overflow: auto;
     padding: 0 1.3rem;
-    height: 100%;
+    
+    
 }
 
 /* Headers */
@@ -82,24 +83,24 @@
 
 /* Padding classes */
 .py-10{
-    padding: 10px;
+    padding: 10px 0px;
 }
 .py-20{
-    padding: 20px;
+    padding: 20px 0px;
 }
 .py-30{
-    padding: 30px;
+    padding: 30px 0px;
 }
 
 /* Margin classes */
 .my-10{
-    margin: 10px;
+    margin: 10px 0px;
 }
 .my-20{
-    margin: 20px;
+    margin: 20px 0px;
 }
 .my-30{
-    margin: 30px;
+    margin: 30px 0px;
 }
 
 /* Main Styling */
@@ -116,11 +117,11 @@ a{
 /* Nav-bar */
 #nav-bar{
     color: white;
-    overflow: auto;
+    overflow: hidden;
 }
 
 #nav-bar .logo{
-padding: 1.2rem;
+padding-top: 1.2rem;
 float: left;
 }
 
@@ -152,29 +153,25 @@ float: left;
 #showcase{
     background: url("../image_resources/nature-forest-trees-fog.jpeg") no-repeat
                 center center/cover;
-    height: 600px;
+    height: 70vh;
    
 }
 
 #showcase .showcase-text{
     color: black;
     text-align: center;
-    line-height: 1.2em;
-    padding-top: 140px;
+    line-height: 1.2rem;
+    padding-top: 235px;
+    
 }
 
 #showcase .showcase-text h2{
     padding-bottom: 1.2rem;
     font-size: 60px;
     line-height: 1.2em;
+    height: 100px;
 }
 
-#showcase .showcase-text p{
-    font-size: 16px;
-    font-weight: bolder;
-    padding-bottom: 2rem;
-    line-height: 1.7em;
-}
 
 #showcase .showcase-text span{
     color:  rgb(136, 77, 10);
@@ -182,7 +179,7 @@ float: left;
 
 /* home-history */
 #home-history{
-    height: 500px;
+    height: 35vh;
 }
 
 #home-history .history-img{
@@ -196,9 +193,11 @@ float: left;
 #home-history .history-content{
     float: right;
     width: 50%;
+    height: 100%;
     text-align: center;
     color: white;
     padding: 2.6rem 1.5rem;
+    overflow: hidden;
 }
 
 #home-history .history-content h2{
@@ -207,16 +206,10 @@ float: left;
 
 #home-history .history-content p{
     padding-bottom: 1.3rem;
-    margin-bottom: 1rem;
+    margin-bottom: .2rem;
 }
 
-/* Main footer */
-#home-footer{
-    height: 2rem;
-    color: white;
-    text-align: center;
-    
-}
+
 
 /* About us */
 
@@ -249,6 +242,14 @@ float: left;
     display: block;
     margin: auto;
     border-radius: 50%;
+}
+
+/* Main footer */
+#home-footer{
+    height: 3vh;
+    color: white;
+    text-align: center;
+    
 }
 
 /* Reviews */

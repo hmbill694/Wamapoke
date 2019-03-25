@@ -1,0 +1,31 @@
+/* Mobile Utilities */
+
+/* Padding classes */
+.py-10{
+    padding: 5px;
+}
+.py-20{
+    padding: 10px;
+}
+.py-30{
+    padding: 15px;
+}
+
+#navbar .logo{
+    float: none;
+    text-align: center;
+    padding: 0;
+}
+
+#navbar ul, #navbar ul li{
+    float: none;
+}
+
+#navbar ul li a{
+    width: 100%;
+    display: block;
+}
+
+#showcase .showcase-text h2{
+    margin-bottom: 5rem; 
+}
